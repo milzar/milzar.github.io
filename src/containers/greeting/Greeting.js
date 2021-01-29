@@ -5,7 +5,6 @@ import './Greeting.css';
 import landingPerson from '../../assets/lottie/landingPerson';
 import DisplayLottie from '../../components/displayLottie/DisplayLottie';
 import SocialMedia from '../../components/socialMedia/SocialMedia';
-import Button from '../../components/button/Button';
 
 import {greeting, illustration} from '../../portfolio';
 import StyleContext from '../../contexts/StyleContext';
@@ -38,14 +37,14 @@ export default function Greeting() {
                   {greeting.subTitle}
                 </p>
                 <SocialMedia/>
-                <div className="button-greeting-div">
-                  <Button text="Contact me" href="#contact"/>
-                  <Button
-                      text="See my resume"
-                      newTab={true}
-                      href={greeting.resumeLink}
-                  />
-                </div>
+                {/*<div className="button-greeting-div">*/}
+                {/*  <Button text="Contact me" href="#contact"/>*/}
+                {/*  <Button*/}
+                {/*      text="See my resume"*/}
+                {/*      newTab={true}*/}
+                {/*      href={greeting.resumeLink}*/}
+                {/*  />*/}
+                {/*</div>*/}
               </div>
             </div>
             <div className="greeting-image-div">
