@@ -167,35 +167,35 @@ const openSource = {
 
 const bigProjects = {
     title: 'Projects',
-    subtitle: 'My hobby projects',
+    subtitle: 'Some of my hobby projects',
     projects: [
         {
-            image: require('./assets/images/saayaHealthLogo.webp'),
-            projectName: "Saayahealth",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: 'https://i.ibb.co/n1Cr9fx/game-1926905-1280.png',
+            projectName: "Playtime",
+            projectDesc: "A discord bot to track and visualise playtime with over 500 concurrent users, written in nodejs and deployed on heroku, ",
             footerLink: [
                 {
                     name: 'Visit Website',
                     url:
-                        'http://saayahealth.com/',
+                        'http://playtime-bot.xyz/',
                 },
                 //  you can add extra buttons here.
             ],
         },
-        {
-            image: require('./assets/images/nextuLogo.webp'),
-            projectName: "Nextu",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            footerLink: [
-                {
-                    name: 'Visit Website',
-                    url:
-                        'http://nextu.se/',
-                },
-            ],
-        },
+        // {
+        //     image: require('./assets/images/nextuLogo.webp'),
+        //     projectName: "Nextu",
+        //     projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        //     footerLink: [
+        //         {
+        //             name: 'Visit Website',
+        //             url:
+        //                 'http://nextu.se/',
+        //         },
+        //     ],
+        // },
     ],
-    display: false, // Set false to hide this section, defaults to true
+    display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -321,7 +321,7 @@ const contactInfo = {
     title: emoji('Contact Me ☎️'),
     subtitle:
         'Discuss a project or just want to say hi? My Inbox is open for all.',
-    number: '',
+    number: 'mail@milanxavier.com',
     emailAddress: 'milanxavier.mec@gmail.com',
 };
 
